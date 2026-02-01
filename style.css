@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f6f9;
+}
+
+.toolbar {
+    padding: 10px;
+    background: #fff;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+svg {
+    width: 100vw;
+    height: 90vh;
+    background: white;
+    border-top: 2px solid #ccc;
+    cursor: crosshair;
+}
